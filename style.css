@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+header, footer {
+  padding: 1em;
+  clear: left;
+  text-align: center;
+}
+
+section {
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
