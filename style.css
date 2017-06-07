@@ -18,6 +18,10 @@ p {
   font-family: 'PT Sans', sans-serif;
 }
 
+code {
+	background-color: grey;
+}
+
 header, footer {
   padding: 1em;
   clear: left;
