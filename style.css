@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
 
+body {
+  background: #FFF url('bg.png');
+}
 h1 {
   font-family: 'PT Serif', serif;
   font-size: 4em;
+    text-shadow: 0 0 4px #FFF;
 }
 
 h2 {
   font-family: 'PT Sans', sans-serif;
+    text-shadow: 1px 1px #bbb;
 }
 
 p {
@@ -17,11 +22,41 @@ header, footer {
   padding: 1em;
   clear: left;
   text-align: center;
+  background: rgba(245,245,245,0.6);
+  margin-bottom: 4em;
 }
 
 section {
-  margin-left: 170px;
+  margin: 0 auto;
   border-left: 1px solid gray;
   padding: 1em;
   overflow: hidden;
+  background: #f6f6f6;
+  border: 1px solid #888;
+  display:block;
+  max-width:900px;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 20px #111;
+}
+
+.button {
+  position: relative;
+	font: 400 1.3rem 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 1.5rem;
+  box-shadow: 0 0 0 0 #333;
+  transition: box-shadow 0.1s;
+  background: #7289da;
+  border: 1px solid #8299ea;
+  color:#fff;
+  text-decoration: none;
+}
+
+.button:active {
+  background: #5259aa;
+}
+.button:hover {
+  background: #6279ca;
+  box-shadow: 0 0 10px 1px #000;
 }
