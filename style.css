@@ -19,7 +19,8 @@ p {
 }
 
 code {
-	background-color: grey;
+	background-color: black;
+	color: white;
 }
 
 header, footer {
